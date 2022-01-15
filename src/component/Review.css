@@ -1,0 +1,95 @@
+.review-box {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-box h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.review-people input{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 140px;
+}
+
+.title-review input {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 1%;
+}
+
+.title-review p {
+    color: #F69400;
+    font-weight: bold;
+}
+
+.review-people p {
+    color: #F69400;
+    font-weight: bold;
+}
+
+.review-box button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    background-color:#F69400;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 768px){
+    .review-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-review {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review-people {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .title-review input {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}

@@ -1,0 +1,40 @@
+.r-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #F69400;
+    height: 100vh;
+    width: 60%;
+    position: fixed;
+    right: 0;
+}
+
+.r-menu nav {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 80%;
+    justify-content: left;
+}
+
+.r-menu nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.r-menu nav li {
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.icon-x {
+    width: 92%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    color: #FFFFFF;
+    margin-top: 6%;
+}
+
